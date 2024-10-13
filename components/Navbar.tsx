@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 
 function Navbar(){
@@ -19,7 +20,7 @@ function Navbar(){
                     <Link href="/about" className="text-white font-bold hover:bg-white hover:text-black rounded-lg p-2">About Us</Link>
                     <Link href="/contact" className="text-white font-bold hover:bg-white hover:text-black rounded-lg p-2">Contact</Link>
                     <div className=" pl-11 bg-slate-900 ">
-                    <img
+                    <Image
                         src="/images/cart.png" alt="cart" width={40} height={40}/>
                     </div>
                 </div>

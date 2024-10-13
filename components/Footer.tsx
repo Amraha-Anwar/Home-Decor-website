@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 function Footer(){
     return ( 
@@ -15,10 +16,10 @@ function Footer(){
                             </div>
                         <div>
                             <h2 className="text-3xl font-bold mb-8">Stay Connected</h2>
-                            <button><img className="hover:underline" src="/images/insta.png" alt="instagram" width={50} height={50}/></button>
-                            <button><img className="hover:underline" src="/images/pinterest.png" alt="pinterest" width={50} height={50}/></button>
-                            <button><img className="hover:underline" src="/images/x.png" alt="twitter" width={50} height={50}/></button>
-                            <button><img className="hover:underline" src="/images/facebook.png" alt="facebook" width={50} height={50}/></button>
+                            <button><Image className="hover:underline" src="/images/insta.png" alt="instagram" width={50} height={50}/></button>
+                            <button><Image className="hover:underline" src="/images/pinterest.png" alt="pinterest" width={50} height={50}/></button>
+                            <button><Image className="hover:underline" src="/images/x.png" alt="twitter" width={50} height={50}/></button>
+                            <button><Image className="hover:underline" src="/images/facebook.png" alt="facebook" width={50} height={50}/></button>
                 </div>
                         <div>
                             <h2 className="text-3xl font-bold mb-8">Payment Method</h2>
