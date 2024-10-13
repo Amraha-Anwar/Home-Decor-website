@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import Details from "../../components/Details";
