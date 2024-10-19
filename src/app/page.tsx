@@ -1,33 +1,28 @@
-import Navbar from "../../components/Navbar";
-import Hero from "../../components/Hero";
-import Details from "../../components/Details";
-import Products from "../../components/Producs";
-import Footer from "../../components/Footer";
-
-
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Details from '../components/Details';
+import Products from '../components/Producs';
+import Footer from '../components/Footer';
 
 function HomePage() {
+
   return (
     <>
-    {/* navbar */}
-        <Navbar/>
-        
+      {/* navbar */}
+      <Navbar />
 
-    {/* hero section */}
-        <Hero/>
+      {/* hero section */}
+      <Hero />
 
+      {/* web Details*/}
+      <Details />
 
-    {/* web Details*/}
-        <Details/>
+      {/* demo products */}
+      <Products />
 
-
-    {/* demo products */}
-        <Products/>
-
-
-    {/* footer */}
-        <Footer/>
+      {/* footer */}
+      <Footer />
     </>
   );
 }
-export default HomePage;
+export default HomePage

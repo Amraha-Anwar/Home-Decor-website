@@ -1,28 +1,23 @@
-import Navbar from "../../../components/Navbar"
-import Hero from "../../../components/Hero"
-import Items from "../../../components/Items"
-import Footer from "../../../components/Footer"
+import Navbar from "../../components/Navbar";
+import Hero from "../../components/Hero";
+import Items from "../../components/Items";
+import Footer from "../../components/Footer";
 
-function  Shop(){
-    return (
-      <>
-
+function Shop() {
+  return (
+    <>
       {/* Navbar */}
-            <Navbar/>
-
+      <Navbar />
 
       {/* hero section */}
-            <Hero/>
-
+      <Hero />
 
       {/* selling products with details */}
-            <Items/>
-
+      <Items />
 
       {/* footer */}
-            <Footer/>
-
-      </>
-    )
+      <Footer />
+    </>
+  );
 }
-export default Shop
+export default Shop;
